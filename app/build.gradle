@@ -45,7 +45,8 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3'
 
-    implementation 'com.github.arturogutierrez:badges:1.0.5@aar'
+    implementation 'com.github.fingltd:devrecog:2edc570049@aar'
+    //implementation 'com.github.arturogutierrez:badges:1.0.5@aar'
 
     /*api(group: 'com.github.fingltd', name: 'devrecog', version:'2.5.2', ext: 'aar')
     implementation(group: 'androidx.appcompat', name: 'appcompat', version:'1.1.0')
