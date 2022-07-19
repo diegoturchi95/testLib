@@ -45,7 +45,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.10.0")
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.3'
 
-    implementation 'com.github.fingltd:devrecog:2edc570049@aar'
+    implementation ('com.github.fingltd:devrecog:2edc570049@aar') { transitive=true }
     //implementation 'com.github.arturogutierrez:badges:1.0.5@aar'
 
     /*api(group: 'com.github.fingltd', name: 'devrecog', version:'2.5.2', ext: 'aar')
@@ -56,6 +56,4 @@ dependencies {
     implementation(group: 'com.google.protobuf', name: 'protobuf-java', version:'2.6.1')
     implementation(group: 'com.squareup.okhttp3', name: 'okhttp', version:'4.8.0')
     implementation(group: 'org.snmp4j', name: 'snmp4j', version:'2.5.0')*/
-    /*
-     */
 }
